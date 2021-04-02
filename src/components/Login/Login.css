@@ -1,0 +1,89 @@
+.loginPage {
+    width: 50%;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 0 auto;
+
+}
+input{
+    margin:10px;
+    border:none;
+    background-color: azure;
+    
+}
+form {
+    width: 76%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.input{
+    width:300px;
+}
+.gap{
+    display: flex;
+}
+.creat-account {
+    display: flex;
+    grid-column-gap: 5px;
+    column-gap: 25px;
+    margin-left: 84px;
+    margin-top: 11px;
+}
+.loginTo{
+    width:62%;
+    border-radius: 20px;
+    background-color:#FAEBD7;
+    border:1px solid #FAEBD7;
+    margin:10px 0;
+    height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginPage{
+        width:100%;
+    }
+        
+    
+    form {
+        width: 100%;
+        
+    }
+    .input{
+        width:80%;
+    }
+    .gap{
+        display: flex;
+    }
+    .creat-account {
+        
+    }
+    .loginTo{
+        width:100%;
+        
+    }
+  }
+    @media only screen and (max-width: 800px) {
+        .loginPage{
+            width:100%;
+        }
+            
+        
+        form {
+            width: 100%;
+            
+        }
+        .input{
+            width:80%;
+        }
+        .gap{
+            display: flex;
+        }
+        .creat-account {
+            
+        }
+        .loginTo{
+            width:100%;
+            
+        }
+    }
